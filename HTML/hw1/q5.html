@@ -24,12 +24,9 @@
     a{
         font-size: 30px;
         text-align:center;
-        color:blue;
-    }
-    input{
-        width: 100%;
-        height: 100%;
+        display: block;
         background-color: #cecece;
+        color:blue;
     }
 </style>
 <body>
@@ -37,15 +34,10 @@
         <thead>
             <tr>
                 <th colspan="4">
-                    <input type="button" name="Antra LIFE" value="Antra LIFE">
-                    <a href="https://antra.com" target="_blank" style="
-                        width:100%;
-                        font-size: 50px;
-                        text-align:center;
-                        background-color:pink;
-                        color:blue;">
+                    <a href="https://antra.com" target="_blank" style="font-size: 50px;background-color: pink;">
                         Antra LIFE
                     </a>
+                    <!-- <input type="button" name="Antra LIFE" value="Antra LIFE" onclick="https://antra.com"> -->
                 </th>
             </tr>
         </thead>
@@ -68,18 +60,26 @@
                 <td>
                     <a href="https://youtube.com" target="_blank">YouTube</a>
                 </td>
-                <td>2048</td>
+                <td><a href="https://play2048.co/" target="_blank">2048</a></td>
             </tr>
             <tr>
-                <td>Food</td>
-                <td colspan="2">Game</td>
+                <td>
+                    <a href="https://www.yelp.com/" target="_blank">Food</a>
+                </td>
+                <td colspan="2">
+                    <a href="https://store.steampowered.com/" target="_blank">Game</a>
+                </td>
                 <td>
                     <table>
                         <tr style="height:50%">
-                            <td>Social Life</td>
+                            <td>
+                                <a href="https://www.instagram.com/" target="_blank" style="font-size:medium">Social Life</a>
+                            </td>
                         </tr>
                         <tr style="height:50%">
-                            <td>Sleep</td>
+                            <td>
+                                <a href="https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php" target="_blank" style="font-size:medium">Sleep</a>
+                            </td>
                         </tr>
                     </table>
                 </td>
@@ -87,8 +87,12 @@
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="3" align="right" style="font-size:30px;font-weight:bold">Beer >>></td>
-                <td align="center">WC</td>
+                <td colspan="3" align="right" style="font-size:30px;font-weight:bold">
+                    <a href="https://www.coronausa.com/" target="_blank">Beer >>></a>
+                </td>
+                <td align="center">
+                    <a href="https://www.nycgo.com/plan-your-trip/basic-information/public-restrooms" target="_blank">WC</a>
+                </td>
             </tr>
         </tfoot>
     </table>
