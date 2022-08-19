@@ -1,0 +1,108 @@
+.bg-image{
+    background-image: url("https://www.peekstreeservice.com/images/84/cut-wood-56275.jpg?");
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mx-auto{
+    width:1000px
+}
+h5{
+    text-align: right;
+    color:white;
+    padding-top: 220px;
+    padding-right: 25px;
+    font-weight: bold;
+}
+#navbar li:hover{
+    background-color: black;
+}
+#navbar li:hover a{
+    color: white;
+}
+#home{
+    background-color: black;
+}
+#home a{
+    color:white;
+}
+#navbar li a{
+    line-height: 3px;
+    font-size: small;
+    font-family: Play, sans-serif;
+}
+#nav{
+    padding: 0;
+}
+.row{
+    background-color: white;
+    justify-content: center;
+}
+.col-lg{
+    padding: 0;
+}
+h2,h4,p,#bottomButton button{
+    color: gray;
+}
+#header, #emergency{
+    margin: 25px 15px 5px 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+p{
+    padding:5px 20px 5px 20px;
+}
+.carousel-item h5{
+    text-shadow: 1px 1px black;
+    text-align: left;
+}
+.col-auto{
+    margin: 25px 0px 25px 0px
+}
+#quote{
+    border: 1px solid rgb(196, 196, 196);
+    padding:30px;
+    text-align: center;
+    margin-top: 45px;
+}
+#header,#quote,#emergency{
+    font-family: Play,sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+#bottomButton li button{
+    margin:0px 40px 0px 40px;
+    height: 40px;
+    width: 200px;
+    font-size: 22px;
+    background-color: white;
+    font-family:Oswald,sans-serif;
+    border: 1px solid rgb(196,196,196)
+}
+#facebook{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+#facebookCell{
+    width:50px;
+    height: 50px;
+}
+#bottomnav{
+    margin-bottom: 0;
+    height: 120px;
+}
+#footer{
+    font-size: small;
+    margin-top:0
+}
+#iconCol{
+    margin-top: 25px;
+    margin-bottom:0px
+}
+#icon{
+    background-color: black;
+    width:80px
+}
