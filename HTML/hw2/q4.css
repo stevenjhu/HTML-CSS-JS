@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    width:1157px;
+}
+#headerPic{
+    width: 1157px;
+    height:500px;
+    overflow:hidden;
+    background-image: url("https://www.gaithersburgmd.gov/home/showpublishedimage/3676/636975902007830000");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    margin: 35% 7% 0% 0%;
+}
+#navbar{
+    background-color: rgb(216, 216, 216);
+
+}
+#navbar li{
+    float: left;
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ 
+#navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 95px;
+    text-transform: uppercase;
+    border-right: 1px solid white;
+}
+  
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+    background-color: rgb(160, 160, 160);
+    color: white
+}
+
+#content{
+    background-color: white;
+}
+.contentBox td{
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 10px;
+    padding: 5px 30px 5px 30px;
+}
+h1{
+    color:rgb(143, 226, 19);
+}
+.contentBox img{
+    width: 200px;
+    height: 150px;
+}
+
+#content ul{
+    padding-left: 0pc;
+    list-style-type: none;
+}
+.blogpost td{
+    border: 0;
+}
+
+.news a{
+    color: rgb(143, 226, 19);
+}
+.news p,h4{
+    margin: 0;
+}
+.news li{
+    margin-bottom: 15px;
+}
+#left-side-content{
+    width: 80%;
+}
+#left-side-content table td{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+#right-side-content{
+    width:20%
+}
+
+#footer{
+    padding: 10px 0px 0px 190px;
+    background-color: rgb(143, 226, 19);
+    height: 50px;
+    font-size: 10px;
+}
