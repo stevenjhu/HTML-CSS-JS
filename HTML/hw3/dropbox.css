@@ -1,0 +1,125 @@
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+#header{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid rgb(192, 192, 192);
+    margin: 0;
+    padding-right: 0;
+}
+#header button{
+    border-radius: 5px;
+    height:40px;
+    width:220px;
+    background-color: white;
+    color:#0061ff;
+    border-color: #0061ff;
+    font-weight: bold;
+}
+#download{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+#header li{
+    height: 80px;
+}
+#header li img{
+    height: 80%;
+}
+#logo,#name{
+    border: 0;
+}
+#logo{
+    padding-right: 0;
+}
+#download a{
+    color: #0062ff;
+}
+#cross{
+    margin-left: 30px;
+    width:15px
+}
+#message{
+    margin: 50px 0px 50px 0px
+}
+#message p{
+    background-color: #f3f0eb;
+    padding:10px
+}
+#message a{
+    color:black;
+    font-weight: bold;
+}
+#drawing svg{
+    width:300px
+}
+#createAccount{
+    text-decoration: none;
+}
+#content-right button{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+#content-right svg{
+    margin-right: 50px;
+    width: 30px;
+}
+#content-right span{
+    margin-left: 50px;
+}
+#google{
+    margin-bottom: 10px;
+}
+#line{
+    margin:20px 0px 20px 0px;
+}
+#line .col{
+    padding: 0;
+}
+#line p{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(202, 202, 202); 
+    line-height: 0.1em;
+    margin: 10px 0 0px; 
+}
+#line span{
+    background:white; 
+    padding:0 10px;
+    margin-right: 40px; 
+}
+form label{
+    font-size: 20px;
+}
+small{
+    margin-left: 7px;
+}
+#google button ,#apple button{
+    background-color: white;
+}
+#forgetPassword{
+    text-decoration: none;
+}
+#content{
+    margin-bottom: 100px;
+}
+.heading{
+    font-weight: bold;
+}
+#hrRow{
+    margin-bottom: 50px;
+}
+#footer{
+    color: gray;
+}
+#lan{
+    background-color: white;
+    border: 0;
+}
